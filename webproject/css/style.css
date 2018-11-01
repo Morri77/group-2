@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#wrapper{
+    background: #eaeaea; 
+    box-shadow: 0 0 10px rgba(12,3,25,0.8);
+    width: 100%;
+   
+}
+header{
+   background-image: url(../images/nik-shuliahin-585307-unsplash.jpg);
+   padding: 5px;
+   margin: 0;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   width: 100%;
+
+}
+
+
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px rgba(12,3,25,0.8);
+    font-size: 3em;
+    
+}
+
+
+nav ul{
+    text-align: center;
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+    width: 100%;
+    background-color: gainsboro;
+    border-bottom: 2px solid #58462A;
+  
+    
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+  
+}
+nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    font-weight: bold;
+    line-height: 40px;
+}
+nav ul li ul{
+    position: absolute;
+    display: none;
+    min-width: 100%;
+  
+}
+nav ul li:hover ul{
+    display: block;
+    
+}
+nav ul li ul li{
+   display: block;
+    
+}
+nav ul li ul li a{
+    text-align: center;
+
+}
+nav ul li a:link{
+    color: black;
+}
+nav ul li a:visited{
+    color: #9E8C72;
+}
+nav ul li a:hover{
+    color: white;
+    text-shadow: 0 0 10px rgba(12,3,25,0.8);
+}
+main{
+padding: 10px;
+}
+
+footer{
+    background-color: gainsboro;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+    margin: 0;
+    border-top: 2px solid #58462A;
+}
